@@ -1,23 +1,38 @@
 body{
     background-color: #9197A3;
     font-family: Inter;
-    font-size: 24px;
-}
-.conteudo{
-    background-color: #F7F8FA;
-    margin: 150px 220px;
-    border: 5px solid #000000;
 }
 .titulo{
-    font-size: 64px;
+    font-size: 4rem;
     text-align: center;
 }
 .subtitulo{
-    font-size: 40px;
+    font-size: 2.5em;
 }
+.texto {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.conteudo{
+    background-color: #F7F8FA;
+    margin: 10vh 15%;
+    border: 5px solid #000000;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.conteudo {
+    text-align: center;
+}
+
 .pdf{
-    min-width: 90%;
-    min-height: 800px;
-    margin: 5%;
+    height: 90vh;
+    width: 80%;
+}
+.github-repo {
+    text-align: center;
 }
 
