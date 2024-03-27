@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller // Faz que esta classe consiga lidar com requisições Web.
 public class PaginaInicialController {
-    @GetMapping("/home") // Faz que o método só lide com requisições GET.
+    @GetMapping("/") // Faz que o método só lide com requisições GET.
     public String irPaginaInicial(Model model){
         return "paginaInicial";
     }
