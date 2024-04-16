@@ -13,48 +13,58 @@ Este site está sendo desenvolvido e mantido por Claudio Conti Ribeiro.
     <link rel="stylesheet" href="paginaInicial.css">
 </head>
 <body>
-<main class="conteudo">
-    <header class="cabecalho">
-        <h1 class="titulo">Claudio Conti R.</h1>
-        <!--Icones do GitHub, e-mail, e Linkedin-->
-    </header>
-    <section class="secao">
-        <h2 class="subtitulo">Estudante e Desenvolvedor de Software</h2>
-        <p class="texto">Olá, é um prazer receber vocês em meu site!</p>
-        <p class="texto">
-            Meu nome é Claudio Conti Ribeiro, tenho 19 anos e sou desenvolvedor de software e
-            estudante do curso de Análise e Desenvolvimento de Sistemas (A.D.S), pela faculdade
-            <strong>UNISENAI</strong> em Florianópolis.
-        </p>
-        <p class="texto">
-            Meu objetivo é ingressar no mercado de trabalho e evoluir tanto profissionalmente
-            como pessoalmente.
-        </p>
-        <p class="texto">
-            No momento não tenho nenhuma experiência na área, mas trabalhei por 1 ano e 4
-            meses como auxiliar administrativo/financeiro em uma empresa de comércio náutico.
-        </p>
-        <p class="texto">
-            Abaixo terá meus projetos em repositórios no <strong>GitHub</strong>, para você  dar uma
-            olhada em minhas habilidades e conhecimentos.
-        </p>
-    </section>
-    <section class="secao">
-        <h2 class="subtitulo">Currículo</h2>
-        <object
-        data="curriculo_pt-br.pdf"
-        type="application/pdf"
-        aria-labelledby="PDF document">
-            <p class="texto">Ocorreu um erro/An error occurred</p>
-        </object>
-        <h3 class="subtitulo">Download</h3>
-        <!-- Icone do PDF -->
-        <p class="texto"><a href="curriculo_pt-br.pdf">PDF DOWNLOAD</a></p>
-    </section>
-    <section class="secao">
-        <h2 class="subtitulo">Projetos/Repositórios</h2>
-        <!-- Repositórios do Github -->
-    </section>
-</main>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">Claudio Conti R.</h1>
+            <!--Icones do GitHub, e-mail, e Linkedin-->
+        </header>
+        <section class="secao">
+            <h2 class="subtitulo">Estudante e Desenvolvedor de Software</h2>
+            <p class="texto">Olá, é um prazer receber vocês em meu site!</p>
+            <p class="texto">
+                Meu nome é Claudio Conti Ribeiro, tenho 19 anos e sou desenvolvedor de software e
+                estudante do curso de Análise e Desenvolvimento de Sistemas (A.D.S), pela faculdade
+                <strong>UNISENAI</strong> em Florianópolis.
+            </p>
+            <p class="texto">
+                Meu objetivo é ingressar no mercado de trabalho e evoluir tanto profissionalmente
+                como pessoalmente.
+            </p>
+            <p class="texto">
+                No momento não tenho nenhuma experiência na área, mas trabalhei por 1 ano e 4
+                meses como auxiliar administrativo/financeiro em uma empresa de comércio náutico.
+            </p>
+            <p class="texto">
+                Abaixo terá meus projetos em repositórios no <strong>GitHub</strong>, para você  dar uma
+                olhada em minhas habilidades e conhecimentos.
+            </p>
+        </section>
+        <section class="secao">
+            <h2 class="subtitulo">Currículo</h2>
+            <object class="pdf" data="curriculo_pt-br.pdf" type="application/pdf" aria-labelledby="PDF document">
+                <p class="texto">Ocorreu um erro/An error occurred</p>
+            </object>
+            <p class="texto txt-center">Download</p>
+            <!-- Icone do PDF -->
+            <p class="txt-center"><a href="curriculo_pt-br.pdf">PDF Download</a></p>
+        </section>
+        <section class="secao">
+            <h2 class="subtitulo">Projetos/Repositórios</h2>
+            <div class="repositorios">
+                <a href="https://github.com/ClaudioRibeiro2/portfolio" target="_blank">
+                    <img class="repo-img" src="svg/portfolio.svg">
+                </a>
+                <a href="https://github.com/ClaudioRibeiro2/exercicios_deitel" target="_blank">
+                    <img class="repo-img" src="svg/exerciciosDeitel.svg">
+                </a>
+                <a href="https://github.com/christianlsb/ElementOOPs" target="_blank">
+                    <img class="repo-img" src="svg/elementOOPs.svg">
+                </a>
+                <a href="https://github.com/christianlsb/Matriculas-GUI" target="_blank">
+                    <img class="repo-img" src="svg/matriculasGUI.svg">
+                </a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

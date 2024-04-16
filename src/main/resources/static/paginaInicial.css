@@ -1,44 +1,66 @@
-/*  Configurações de fonte na pagína
-    Font configuration of the page    */
+/*  Configurações Globais */
+* {
+    margin: 0px;
+    padding: 0px;
+    line-height: 120%;
+    font-family: Inter;
+}
+/*  Configurações de fonte e texto na pagína  */
 .titulo{
     font-size: 4rem;
     text-align: center;
+    padding: 3rem 0px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #050e1f;
 }
 .subtitulo{
     font-size: 2.5em;
     text-align: center;
+    padding: 2rem 0px;
+    color: #050e1f;
 }
 .texto {
     font-size: 1.5rem;
     text-align: justify;
+    padding: 1rem 0px;
+    color: #050e1f;
 }
-/*  Configurações dos componentes na pagína
-    Component configuration in the page      */
+.txt-center{
+    text-align: center;
+    color: #050e1f;
+}
+a{
+    text-decoration: none;
+}
+/*  Configurações dos componentes na pagína */
 body{
     background-color: #9197A3;
-    font-family: Inter;
 }
-.conteudo{
+main {
     background-color: #F7F8FA;
     margin: 10vh 15%;
-    /* border: 4px solid #000000; */
+    border: 2px solid #000000;
     border-radius: 30px;
-
-    display: grid;
-    grid-template-columns: [primeira] 15% [conteudo] auto [terceira] 15%;
-    grid-template-rows: repeat(4, auto [primeira]);
+    padding-right: 5%;
+    padding-left: 5%;
 }
 .cabecalho{
-    grid-column-start: conteudo;
 }
 .secao{
-    grid-column-start: conteudo;
 }
 .pdf{
-    height: 90vh;
-    width: 80%;
+    height: 100vh;
+    width: 95%;
+    margin: 0 2.5%;
 }
-.github-repo {
-    /* Display Flex */
+.repositorios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.repo-img {
+    margin: 10px 0px;
+
 }
 
