@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 0px;
     line-height: 120%;
-    font-family: Inter;
+    font-family: LMSansQuot8-Regular,monospace;
 }
 /*  Configurações de fonte e texto na pagína  */
 .titulo{
@@ -35,17 +35,14 @@ a{
 }
 /*  Configurações dos componentes na pagína */
 body{
-    background-color: #9197A3;
+    background-color: #444;
 }
 main {
     background-color: #F7F8FA;
     margin: 10vh 15%;
     border: 2px solid #000000;
-    border-radius: 30px;
-    padding-right: 5%;
-    padding-left: 5%;
-}
-.cabecalho{
+    border-radius: 25px;
+    padding: 2rem 5%;
 }
 .secao{
 }
@@ -56,11 +53,24 @@ main {
 }
 .repositorios {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .repo-img {
-    margin: 10px 0px;
+    margin: 10px;
 
 }
-
+.rodape {
+    width: 100%;
+    background-color: #F7F8FA;
+    padding: 2.5% 0px;
+    text-align: center;
+}
+.img-rede-social {
+    height: 36px;
+    padding: 0 1rem;
+}
+.li-rodape{
+    padding: 1rem 0px;
+}
