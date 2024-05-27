@@ -36,6 +36,13 @@ a{
 /*  Configurações dos componentes na pagína */
 body{
     background-color: #9197A3;
+    opacity: 1;
+    background:
+            radial-gradient(circle, transparent 20%, #9197A3 20%, #9197A3 80%, transparent 80%, transparent),
+            radial-gradient(circle, transparent 20%, #9197A3 20%, #9197A3 80%, transparent 80%, transparent) 50px 50px,
+            linear-gradient(#000000 4px, transparent 4px) 0 -2px,
+            linear-gradient(90deg, #000000 4px, #9197A3 4px) -2px 0;
+    background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
 }
 main {
     background-color: #F7F8FA;
@@ -47,7 +54,7 @@ main {
 .secao{
 }
 .pdf{
-    height: 100vh;
+    height: 70vh;
     width: 95%;
     margin: 0 2.5%;
 }

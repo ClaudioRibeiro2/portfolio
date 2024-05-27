@@ -1,10 +1,9 @@
 package com.portfolio.claudioPortfolio.models;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@Controller // Faz que esta classe consiga lidar com requisições Web.
+@org.springframework.stereotype.Controller // Faz que esta classe consiga lidar com requisições Web.
 public class PaginaInicialController {
     @GetMapping("/") // Faz que o método só lide com requisições GET.
     public String irPaginaInicial(Model model){
