@@ -1,82 +1,117 @@
 /*  Configurações Globais */
 * {
-    margin: 0px;
-    padding: 0px;
-    line-height: 120%;
-    font-family: LMSansQuot8-Regular,monospace;
+  margin: 0px;
+  padding: 0px;
+  line-height: 120%;
+  font-family: LMSansQuot8-Regular, monospace;
 }
+
 /*  Configurações de fonte e texto na pagína  */
-.titulo{
-    font-size: 4rem;
-    text-align: center;
-    padding: 3rem 0px;
-    text-decoration: underline;
-    text-transform: uppercase;
-    color: #050e1f;
+
+.titulo {
+  font-size: 4rem;
+  text-align: center;
+  padding: 3rem 0px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: #050e1f;
 }
-.subtitulo{
-    font-size: 2.5em;
-    text-align: center;
-    padding: 2rem 0px;
-    color: #050e1f;
+.subtitulo {
+  font-size: 2.5em;
+  text-align: center;
+  padding: 2rem 0px;
+  color: #050e1f;
 }
 .texto {
-    font-size: 1.5rem;
-    text-align: justify;
-    padding: 1rem 0px;
-    color: #050e1f;
+  font-size: 1.5rem;
+  text-align: justify;
+  padding: 1rem 0px;
+  color: #050e1f;
 }
-.texto-centralizado{
-    text-align: center;
-    color: #050e1f;
+.texto-centralizado {
+  text-align: center;
+  color: #050e1f;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
+
 /*  Configurações dos componentes na pagína */
-body{
-    background-color: #9197A3;
-    opacity: 1;
-    background:
-            radial-gradient(circle, transparent 20%, #9197A3 20%, #9197A3 80%, transparent 80%, transparent),
-            radial-gradient(circle, transparent 20%, #9197A3 20%, #9197A3 80%, transparent 80%, transparent) 50px 50px,
-            linear-gradient(#000000 4px, transparent 4px) 0 -2px,
-            linear-gradient(90deg, #000000 4px, #9197A3 4px) -2px 0;
-    background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+
+body {
+  background-color: #9197a3;
+  opacity: 1;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      #9197a3 20%,
+      #9197a3 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #9197a3 20%,
+        #9197a3 80%,
+        transparent 80%,
+        transparent
+      )
+      50px 50px,
+    linear-gradient(#000000 4px, transparent 4px) 0 -2px,
+    linear-gradient(90deg, #000000 4px, #9197a3 4px) -2px 0;
+  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
 }
 main {
-    background-color: #F7F8FA;
-    margin: 10vh 15%;
-    border: 5px solid #000000;
-    border-radius: 25px;
-    padding: 2rem 5%;
+  background-color: #f7f8fa;
+  margin: 10vh 15%;
+  border: 5px solid #000000;
+  border-radius: 25px;
+  padding: 2rem 5%;
 }
-.secao{
+.secao {
 }
-.pdf{
-    height: 70vh;
-    width: 95%;
-    margin: 0 2.5%;
+.pdf {
+  height: 70vh;
+  width: 95%;
+  margin: 0 2.5%;
 }
 .repositorios {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .repositorio__imagem {
-    margin: 10px;
+  margin: 10px;
 }
 .rodape {
-    width: 100%;
-    background-color: #F7F8FA;
-    padding: 2.5% 0px;
-    text-align: center;
+  width: 100%;
+  background-color: #f7f8fa;
+  padding: 2.5% 0px;
+  text-align: center;
 }
-.rodape__li{
-    padding: 1rem 0px;
+.rodape__li {
+  padding: 1rem 0px;
 }
 .li__imagem {
-    height: 36px;
-    padding: 0 1rem;
+  height: 36px;
+  padding: 0 1rem;
+}
+
+/* BreakPoints */
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: none;
+    background: none;
+    background-size: none;
+  }
+  main {
+    background-color: #f7f8fa;
+    margin: 0px 0px;
+    border: none;
+    border-radius: none;
+    padding: 2rem 5%;
+  }
 }
