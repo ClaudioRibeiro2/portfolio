@@ -8,4 +8,5 @@ public class ClaudioPortfolioApplication {
 	public static void main(String[] args)	 {
 		SpringApplication.run(ClaudioPortfolioApplication.class, args);
 	}
+
 }
