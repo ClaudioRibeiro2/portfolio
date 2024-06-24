@@ -101,7 +101,7 @@ main {
 
 /* BreakPoints */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
   body {
     background-color: none;
     background: none;
@@ -111,7 +111,10 @@ main {
     background-color: #f7f8fa;
     margin: 0px 0px;
     border: none;
-    border-radius: none;
+    border-radius: 0px;
     padding: 2rem 5%;
+  }
+  .repositorio__imagem{
+    width: 340px;	
   }
 }
