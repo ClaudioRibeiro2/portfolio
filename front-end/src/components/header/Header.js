@@ -3,16 +3,16 @@ import './Header.css';
 function Header(){
     return (
     <header className="header">
-        <div className="titles">
+        <div className="title">
             <h1>
                 <a href="/">CLAUDIO CONTI R.</a>
             </h1>
         </div>
-        <div className="nav-container">
+        <nav className="nav-container">
             <a href="/about">Sobre mim</a>
             <a href="/curriculum">Currículo</a>
             <a href="/notes">Anotações</a>
-        </div>
+        </nav>
     </header>
     );
 }

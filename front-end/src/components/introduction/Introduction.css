@@ -1,0 +1,25 @@
+.introduction-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction-container p {
+    margin: 10px 0;
+    letter-spacing: 0.5;
+}
+
+.aboutme-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    border-top: 2px solid #000;
+}
+
+.transition{
+    margin: 0px !important;
+}

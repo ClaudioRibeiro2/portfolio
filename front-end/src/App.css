@@ -1,3 +1,8 @@
+html{
+  background-color: #DBD6C9;
+  color: #000;
+  font-weight: 500;
+}
 .body{
   margin: 0 auto;
   padding-top: 2vh;
