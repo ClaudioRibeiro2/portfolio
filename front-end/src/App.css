@@ -1,10 +1,28 @@
-html{
-  background-color: #DBD6C9;
-  color: #000;
-  font-weight: 500;
+@font-face {
+  font-family: 'Pressura Mono';
+  src: url(../public/GT-Pressura-Mono-Regular.ttf);
 }
-.body{
-  margin: 0 auto;
-  padding-top: 2vh;
-  width: 95%;
+
+html{
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+body{
+  background: #fffcf9 url(../public/ricepaper2.jpg);
+  background-size: 300px 300px;
+  background-repeat: repeat;
+  font-family: Pressura Mono, monospace;
+  font-size: 1rem;
+  font-weight:400;
+  line-height: 1.5;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 1.5vw;
+  max-width: 1750px;
+  position: relative;
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh
 }
