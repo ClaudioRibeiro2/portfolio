@@ -9,11 +9,10 @@
     position: relative;
     text-align: center;
     justify-content: center;
+    padding: 10px 0;
 }
 
 .title a {
-    box-shadow: 0 0 0 1px #231f20, inset 0 0 0 1px #231f20;
-    padding: 16px;
     display: flex;
     text-decoration: none;
     background-color: transparent;
@@ -23,7 +22,53 @@
     color: #231f20;
 }
 
+.date {
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
 .site-title{
     font-size: 2.5em;
     font-weight: 1000;
+    margin: 0;
+}
+
+@media (max-width: 400px) {
+    .site-title span {
+        display: none;
+    }    
+}
+
+.nav-container {
+
+}
+
+.nav-container ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-container li {
+    box-shadow: 0 0 0 1px #231f20,inset 0 0 0 1px #231f20;
+    text-align: center;
+    flex: 1;
+    list-style: none;
+    position: relative;
+}
+
+.nav-container a {
+    font-size: 1.4rem;
+    line-height: 1;
+    font-weight: 700;
+    font-family: Pressura Mono, monospace;
+    padding: 16px 20px;
+    margin: 0;
+    text-decoration: none;
+    background-color: transparent;
+    color: #231f20;   
+
+    display: inline-block;
+    text-align: center;
 }

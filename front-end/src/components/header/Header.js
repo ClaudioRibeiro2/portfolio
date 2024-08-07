@@ -28,7 +28,7 @@ function Header() {
             &nbsp;
             <span className="year">{new Date().getFullYear()}</span>
           </p>
-          <h1 className="site-title">CLAUDIO CONTI R.</h1>
+          <h1 className="site-title">CLAUDIO CONTI <span>R.</span></h1>
         </a>
       </section>
       <nav className="nav-container">
