@@ -1,0 +1,21 @@
+.curriculum-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.curriculum-container iframe {
+    width: 100%;
+    height: 80vh;
+}
+
+.curriculum-container a {
+    font-size: 2rem;
+}
+
+@media (max-width: 400px) {
+    .curriculum-container iframe {
+        display: none;
+    }
+}
