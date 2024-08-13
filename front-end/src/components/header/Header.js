@@ -34,9 +34,6 @@ function Header() {
       <nav className="nav-container">
         <ul>
           <li>
-            <a href="/about/">SOBRE MIM</a>
-          </li>
-          <li>
             <a href="/curriculum/">CURRÍCULO</a>
           </li>
           <li>

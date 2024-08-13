@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Pressura Mono';
-  src: url(../public/GT-Pressura-Mono-Regular.ttf);
+  src: url(../public/Rubik-VariableFont_wght.ttf);
 }
 
 html{
@@ -25,4 +25,9 @@ body{
   display:flex;
   flex-direction: column;
   min-height: 100vh
+}
+
+a:hover {
+  color: #26498d !important;
+  transition: color .5s;
 }

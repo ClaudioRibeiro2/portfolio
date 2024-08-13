@@ -12,6 +12,7 @@
   margin: 0 auto;
   text-align: center;
   font-size: 2.5rem;
+  font-weight: 800;
 }
 
 .introduction-container p {
@@ -30,4 +31,11 @@
 .introduction-container img {
   width: 50px;
   height: 50px;
+}
+
+.introduction-container img:hover,
+.introduction-container img:focus {
+  filter: invert(22%) sepia(28%) saturate(3072%) hue-rotate(198deg)
+    brightness(60%) contrast(90%);
+  transition: .5s;
 }

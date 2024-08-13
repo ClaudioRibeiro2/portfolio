@@ -25,12 +25,27 @@
 .date {
     margin: 0px;
     margin-bottom: 8px;
+    font-weight: 600;
 }
 
 .site-title{
     font-size: 3rem;
     font-weight: 1000;
     margin: 0;
+}
+
+@media (min-width: 1000px){
+    .site-title {
+        font-size: 5rem;
+    }
+
+    .title a {
+        font-size: 2rem;
+    }
+
+    .nav-container a {
+        font-size: 2rem !important;
+    }
 }
 
 @media (max-width: 400px) {
@@ -66,7 +81,6 @@
     padding: 16px 20px;
     margin: 0;
     text-decoration: none;
-    background-color: transparent;
     color: #231f20;   
 
     display: inline-block;
