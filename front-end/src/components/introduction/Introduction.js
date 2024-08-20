@@ -3,6 +3,7 @@ import "./Introduction.css";
 import Formation from "../formation/Formation";
 import Experience from "../experience/Experience";
 import { Curriculum } from "../curriculum";
+import { GithubIcon, InstagramIcon, LikedinIcon } from "../svg-imgs/SvgImgs";
 
 function Introduction() {
   return (
@@ -16,24 +17,36 @@ function Introduction() {
           Vestibulum lobortis sagittis est, pulvinar eleifend neque tincidunt
           quis.
         </p>
-        <a href="http://github.com/ClaudioRibeiro2" target="_blank" rel="noreferrer">
-          <img src="/github-icon.svg" alt="GitHub Icon" />
+        <a
+          href="http://github.com/ClaudioRibeiro2"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <GithubIcon />
         </a>
-        <a href="http://www.linkedin.com/in/claudio-conti-ribeiro/" target="_blank" rel="noreferrer">
-          <img src="/linkedin-icon.svg" alt="Linkedin Icon" />
+        <a
+          href="http://www.linkedin.com/in/claudio-conti-ribeiro/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <LikedinIcon />
         </a>
-        <a href="https://www.instagram.com/claudio.conti.r?igsh=OW4xaHlremk3eG1z" target="_blank" rel="noreferrer">
-          <img src="/instagram-icon.svg" alt="Instagram Icon" />
+        <a
+          href="https://www.instagram.com/claudio.conti.r?igsh=OW4xaHlremk3eG1z"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <InstagramIcon />
         </a>
       </section>
       <section>
         <h1>FORMAÇÃO</h1>
         <Formation
-          degree="Diploma de ensino médio técnico"
+          degree="Ensino médio técnico"
           institution="SESI SENAI"
           local="Florianópolis"
           finishDate="2021"
-          description="Ensino Médio Técnico em Análise e Desenvolvimento de Sistemas"
+          description="Ensino Médio Técnico em Desenvolvimento de Sistemas"
         />
         <hr />
         <Formation

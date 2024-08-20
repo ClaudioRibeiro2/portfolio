@@ -1,0 +1,30 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-title img {
+  height: 25px;
+}
+
+.project-title h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.project-container p {
+  margin: 0;
+  font-size: 1.5rem;
+}
+

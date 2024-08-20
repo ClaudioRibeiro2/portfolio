@@ -1,0 +1,26 @@
+svg {
+  color: #231f20;
+}
+
+.svg-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.svg-icon:hover,
+.svg-icon:focus {
+  color: #26498d;
+  transition: 0.5s;
+}
+
+.svg-github-card{
+  height: 25px;
+  width: 25px;
+}
+
+.svg-github-card:hover,
+.svg-github-card:focus {
+  color: #26498d;
+  transition: 0.5s;
+}
+
